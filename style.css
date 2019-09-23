@@ -1,0 +1,145 @@
+/*CSS reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+  */
+  /*CSS reset*/
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+  body {
+  line-height: 1;
+  }
+  ol, ul {
+  list-style: none;
+  }
+  blockquote, q {
+  quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  content: '';
+  content: none;
+  }
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  }
+
+.hatter{
+    background-image: linear-gradient(to top right,#0000ff, white);
+    height: 100vh;
+    width: 100vw;
+    padding-top:20vh;
+}
+.urlap{
+    color:white;
+  margin: 0 auto;
+  height: 750vh;
+  
+}
+
+.object-fit_fill { object-fit: cover; }
+.image{
+  height: 100%;
+  background-image: url("image.jpg");
+  border-radius: 5% 0 0 5%; 
+  height: 75vh;
+}
+.form{
+  background: black;
+  border-radius:  0 5% 5% 0; 
+  height: 75vh;
+  padding: 2vh 3vh 5vh 3vh !important;
+  
+}
+.input-group {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 90% !important;
+  position: relative;
+  margin-bottom: 2%;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif ;
+}
+ .inpp{
+  width: 100%;
+}
+.input--style-3 {
+  padding:5px 0;
+  font-size: 16px;
+  color: #ccc;
+  background: transparent;
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+label{
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: rgb(139, 136, 136);
+}
+.title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+.gomb{
+  margin-top: 5vh;
+}
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+.btn {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 33px;
+  font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  color:black;
+  font-size: 18px;
+  background: #b2b4b2;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px ;
+  border-radius: 20px ;
+}
+
+.btn:hover {
+  background:white;
+}
